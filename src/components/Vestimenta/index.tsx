@@ -15,12 +15,12 @@ const Vestimenta = () => {
 
   return (
     <>
-      <Logo />
       <S.ButtonBack>
         <button onClick={handleClickHome}>
           <img src={IconBack} alt="Seta voltar" />
         </button>
       </S.ButtonBack>
+      <Logo />
       <S.Body>
         <S.Header>Vestimenta dos convidados</S.Header>
         <S.SubTitle>TRAJE COMPLETO</S.SubTitle>

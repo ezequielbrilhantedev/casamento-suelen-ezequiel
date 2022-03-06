@@ -7,11 +7,16 @@ export const Body = styled.section`
 `
 export const ButtonBack = styled.div`
   button {
-    background-color: none;
+    background: none;
     border: none;
+    cursor: pointer;
+    margin: 1% 0 0 1%;
 
     img {
-      width: 5rem;
+      width: 4rem;
+      ${media.lessThan('medium')`
+        width: 2rem;
+      `}
     }
   }
 `

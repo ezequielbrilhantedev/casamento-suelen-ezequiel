@@ -2,9 +2,6 @@ import * as S from './styles'
 import ImgPix from '../../assets/images/qr-code-pix.png'
 
 const FormasPresentes = () => {
-  // let copyChavePix = document.getElementById('chavePix')
-  // copyChavePix.
-
   return (
     <>
       <S.SectionPresentes>
@@ -27,11 +24,7 @@ const FormasPresentes = () => {
             <img src={ImgPix} alt="QR Code pix" />
           </S.QRCodePix>
           <S.ChavePix>
-            ou com a chave: &nbsp;
-            <input type="text" id="chavePix" value="ezequielrb7@gmail.com" />
-            {/* <button id="buttonCopyPix">
-              <S.IconCopy />
-            </button> */}
+            <p>chave pix: ezequielrb7@gmail.com</p>
           </S.ChavePix>
         </S.Pix>
       </S.SectionPresentes>
