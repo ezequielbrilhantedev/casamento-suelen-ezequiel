@@ -13,8 +13,9 @@ const ManualConvidados = () => {
   return (
     <>
       <S.SectionManual>
-        <S.Title>Manual dos Convidados</S.Title>
-        <S.Horario>Horário: 16:00 horas</S.Horario>
+        <S.Title>Informações sobre o casamento</S.Title>
+        <S.HorarioData>Data: 19/10/2022</S.HorarioData>
+        <S.HorarioData>Horário: 16:00 horas</S.HorarioData>
         <S.Vestimenta>Vestimenta:</S.Vestimenta>
 
         <S.DivButton>

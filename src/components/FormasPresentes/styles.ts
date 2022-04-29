@@ -67,7 +67,7 @@ export const Pix = styled.p`
 export const QRCodePix = styled.span`
   img {
     display: grid;
-    width: 30%;
+    width: 44%;
     margin-top: 2%;
     margin: auto;
     margin-top: 2%;

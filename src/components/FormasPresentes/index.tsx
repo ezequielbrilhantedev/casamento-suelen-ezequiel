@@ -1,5 +1,5 @@
 import * as S from './styles'
-import ImgPix from '../../assets/images/qr-code-pix.png'
+import ImgPix from '../../assets/images/qr-code-100.png'
 
 const FormasPresentes = () => {
   return (

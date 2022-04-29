@@ -59,7 +59,7 @@ export const Button = styled.button`
   }
 `
 
-export const Horario = styled.p`
+export const HorarioData = styled.p`
   font-family: 'forum';
   font-size: 22px;
   font-weight: 400;
